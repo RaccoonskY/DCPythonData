@@ -8,7 +8,7 @@ def logger(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         with open('log.txt','w') as f:
-            result = func(*args,**kwargs)
+            result = func(*args, **kwargs)
             f.write(str(result))
         return result
     return wrapper
