@@ -7,7 +7,7 @@ This solution gives:
 (1) example of working with files in python with
 (2) implementing new behaviour to the default methods of P
 (3) by using overloading magic methods such as: 
-(4) __str__ to give string representation of File (absolute path here)
+(4) __str__ to give string representation of File (absolute path of file here)
 (5) __add__ overloads '+' for two files
 (6) __iter__ returns iterable object (here it's RO file)
 (7) __next__ gives us new object from the sequence 
