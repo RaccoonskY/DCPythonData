@@ -6,7 +6,6 @@ Primes(n) returns a sequence of prime numbers up to n
 PS. Actually, Primes(n) returns a sequence generator!
 """
 
-
 class Primes:
     def __init__(self, max_num):
         self.max_num = max_num
